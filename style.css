@@ -1,0 +1,43 @@
+
+     .main-sec{
+        background: url(img/background.jpg);
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .sign-up{
+        width: 40%;
+        padding: 2rem;
+     }
+     .eye-icon{
+       height: 100%;
+       background-color: white;
+       border-left: transparent;
+    }
+    #passwordInput{
+        border-right: transparent;
+    }
+    @media(max-width:768px){
+        .sign-up{
+            width: 90% !important;
+        }
+        .nav-btn{
+            font-size: small !important;
+        }
+        .nav-btn-group{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+    }
+    .nav-btn:hover{
+        background-color:#74b72e;
+        color: white;
+        opacity: 1;
+    }
+    .sign-up-btn:hover{
+        border: 2px solid #74b72e !important;
+    }
